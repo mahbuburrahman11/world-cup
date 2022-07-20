@@ -1,0 +1,326 @@
+/*-----------
+ main body
+ --------- */
+ body{
+  margin: 0;
+ }
+/*------------
+ head section
+ ------------ */
+ .head-container{
+    display: flex;
+    background-color: #161616;
+    width: 1321px;
+    height: 550px;
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-top: 50px;
+ }
+ .head{
+    width: 50%;
+    margin-left: 10%;
+ }
+ .head-text{
+    color: white;
+    width: 540px;
+    width: 531px;
+    height: 624px;
+    margin-top: 70px;
+    
+ }
+ .head-text h1{
+    font-size: 60px;
+    margin-bottom: -10px;
+ }
+ .head-text p{
+    margin-bottom: 40px;
+ }
+ .head img{
+width: 581px;
+height: 530px;
+margin-top: 20px;
+margin-bottom: 0%;
+margin-right: 40px;
+
+ }
+ .head-text a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: tomato;
+ }
+ /*----------
+  section blog 
+  -----------*/
+  .blog-section{
+    margin-left: 70px;
+  }
+  .blog-container{
+    display: flex;
+    margin-top: 70px;
+    width: 1321px;
+
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    height: 280px;
+    border-radius: 7px;
+    
+  }
+  .button{
+    text-decoration: none;
+    color: #161616;
+    padding: 20px 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: white;
+    border: 1px solid lightslategrey;
+    text-align: center;
+    margin: 14px;
+    border-radius: 5px;
+  }
+  .blog-button{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 20px;
+font-weight: 500px;
+    background-color: tomato;
+    border: 1px solid lightslategrey;
+    text-align: center;
+    margin: 14px;
+    border-radius: 5px;
+  }
+  
+  
+  .blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 25px;
+  }
+  .blog{
+    width: 325px;
+    height: 340px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    
+  }
+  .blog img{
+    width: 325px;
+    height: 175px;
+  }
+  .blog-text{
+    margin-left: 8px;
+    margin-top: 30px;
+  }
+  .blog-text a{
+    text-decoration: none;
+    padding: 8px 30px;
+    color: #161616;
+    font-weight: 500px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+  }
+  .blog-text p{
+    margin-top: 30px;
+  }
+  i{
+    margin-left: 25px;
+  }
+  .view{
+    margin-top: 60px;
+  margin-left: 41%;
+  }
+  .view-all{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  /*-----------
+   footer section
+   ------------ */
+   footer{
+    height: 400px;
+    background-color: #161616;
+    text-align: center;
+    color: aliceblue;
+   
+   }
+   footer h1{
+   padding-top: 60px;
+   font-size: 60px;
+   }
+   .footer{
+    margin-top: 50px;
+   }
+   footer a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: lightgray;
+   }
+   .social{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+   }
+   
+
+   /*--------- 
+       responsive
+       ------------- */
+       @media only screen and (max-width:688px) {
+        
+        .head-container{
+            margin: 0px;
+            width: 100%;
+            height: 790px;
+            flex-direction: column;
+        }
+        .head img{
+            height: 80%;
+            width: 360px;
+    
+       }
+.head-text{
+    width: 360px;
+    margin-left: 20px;
+}
+.blog-section{
+    margin: 0%;
+}
+.blog-container{
+    width: 100%;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.blogs{
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+}
+.blog{
+    margin-left: 40px;
+}
+.links{
+    width: 260px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+       .blog-button{
+        width: 153px;
+       }
+       
+       .footer-main{
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+       }
+       .footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 20px;
+        margin-top: -30px;
+       }
+       .footer a{
+        margin-bottom: 10px;
+       }
+       .social{
+        margin-top: 20px;
+        margin-right: 40px;
+       }
+       .social a{
+        margin-left: 10px;
+        color: aliceblue;
+       }
+       .view a{
+        display: none;
+       }
+    }
+    @media only screen and (min-width:688px) and (max-width:992px) {
+      .head-container{
+        margin: 0px;
+        width: 100%;
+        height:650px;
+      }
+    .head img{
+        height: 97%;
+        width: 360px;
+   }
+.head-text{
+width: 360px;
+margin-left: 20px;
+}
+.blog-section{
+margin: 0%;
+}
+.blog-container{
+width: 100%;
+margin-top: 40px;
+flex-direction: column;
+}
+.blogs{
+width: 100%;
+grid-template-columns: repeat(2, 1fr);
+margin: 30px;
+}
+.blog{
+margin-right: 40px;
+}
+
+.links {
+height: 60px;
+margin-left: 150px;
+background-color:aliceblue;
+margin-bottom: 30px;
+flex-direction: row;
+background-color: white;
+margin-right: 110px;
+align-items: center;
+}
+.links a{ 
+  width: 400px
+ }
+.blog-button{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+   
+   .footer-main{
+    width: 100%;
+    margin: 0px;
+    flex-direction: column;
+   }
+   .footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 20px;
+    margin-top: -30px;
+   }
+   .footer a{
+    margin-bottom: 10px;
+   }
+   .social a{
+    display: none;
+   }
+   .hide{
+    display: none;
+   }
+    }
+   @media only screen and (min-width:922px) {
+    .social a{
+      display: none;
+     }
+     .view a{
+      display: none;
+     }
+   }
