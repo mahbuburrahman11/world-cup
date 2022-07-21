@@ -9,7 +9,7 @@
  ------------ */
  .head-container{
     display: flex;
-    background-color: #161616;
+    background-color: #405a70;
     width: 1321px;
     height: 550px;
     margin-left: 70px;
@@ -195,7 +195,7 @@ font-weight: 500px;
             flex-direction: column;
         }
         .head img{
-            height: 80%;
+            height: 79%;
             width: 360px;
     
        }
@@ -328,4 +328,5 @@ align-items: center;
      .view a{
       display: none;
      }
+     
    }
